@@ -1,0 +1,1 @@
+Product = Struct.new(:brand, :price, :fuel, :mileage, :gearbox, :year, :location, :url, :image)

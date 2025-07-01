@@ -1,0 +1,56 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (3.2.2)
+    csv (3.3.5)
+    httparty (0.23.1)
+      csv
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
+    matrix (0.4.3)
+    mini_mime (1.1.5)
+    multi_xml (0.7.2)
+      bigdecimal (~> 3.1)
+    nokogiri (1.18.8-aarch64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.8-aarch64-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.18.8-arm-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.8-arm-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.18.8-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.8-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.8-x86_64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.8-x86_64-linux-musl)
+      racc (~> 1.4)
+    pdf-core (0.10.0)
+    prawn (2.5.0)
+      matrix (~> 0.4)
+      pdf-core (~> 0.10.0)
+      ttfunk (~> 1.8)
+    racc (1.8.1)
+    ttfunk (1.8.0)
+      bigdecimal (~> 3.1)
+
+PLATFORMS
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm-linux-musl
+  arm64-darwin
+  x86_64-darwin
+  x86_64-linux-gnu
+  x86_64-linux-musl
+
+DEPENDENCIES
+  csv
+  httparty
+  nokogiri
+  prawn
+
+BUNDLED WITH
+   2.6.9

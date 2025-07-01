@@ -1,0 +1,15 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ruby-dev
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./ruby_code:/home/hosting/app
+    working_dir: /home/hosting/app
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+    command: bash
