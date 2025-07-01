@@ -3,11 +3,13 @@ Ruby web scraper for extracting car listings from Otomoto.pl and exporting to CS
 # Quick Start with Docker
 
 docker-compose build
+
 docker-compose run dev
 
 # Inside container:
 
 bundle install
+
 ruby main.rb
 
 # Configuration
